@@ -4,11 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--TODO: This I will do later -->
+    <link rel="stylesheet" href="./assets/normalize.css" />
+    <!-- <link rel="stylesheet" href="./assets/reset.css" /> -->
+
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <style>
+      #mainHeader {
+        color: hwb(64 0% 2% / 0.741);
+        background-color: hsl(332, 100%, 20%);
+        border: 1px solid red;
+      }
+
+      .textBlue,
+      h3 {
+        color: blue;
+      }
+      h1 {
+        color: lightsalmon;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>Online shop</h1>
-      <h2>Best Online shop you can find on the internet</h2>
+      <h1 id="mainHeader" class="textBlue">Online shop</h1>
+      <!-- <h2 style="color: brown">
+        Best Online shop you can find on the internet
+      </h2> -->
       <div>
         <img src="https://picsum.photos/200/300" alt="Picsum Random image" />
         <img src="https://picsum.photos/200/300" alt="Picsum Random image" />
@@ -30,14 +53,14 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section id="products" class="bgPrimary">
         <h2>Products</h2>
         <ol>
           <li>Computers</li>
           <li>Phones</li>
         </ol>
       </section>
-      <section>
+      <section id="aboutUs" class="bgPrimary">
         <h2>About us</h2>
         <h3>This is general info about us</h3>
         <p>

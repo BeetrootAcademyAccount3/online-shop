@@ -1,0 +1,23 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+}
+
+header {
+  background-color: green;
+}
+
+p {
+  background-color: aquamarine;
+}
+
+.bgPrimary {
+  background-color: blueviolet;
+}
+
+#products {
+  color: white;
+}
