@@ -7,47 +7,68 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="main-nav">
-        <ul>
-          <li>
-            <a href="https://www.google.com">Google</a>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="https://www.google.com" class="main-nav__link">Google</a>
           </li>
-          <li><a href="https://www.abv.bg">Abv</a></li>
+          <li class="main-nav__item">
+            <a href="https://www.abv.bg" class="main-nav__link">Abv</a>
+          </li>
         </ul>
       </nav>
-      <h1>Online shop</h1>
-      <h2>Best Online shop you can find on the internet</h2>
+      <h1 class="header__title">Online shop</h1>
+      <h2 class="header__subtitle">
+        Best Online shop you can find on the internet
+      </h2>
     </header>
-    <main>
-      <section>
-        <h2>Products</h2>
+    <main class="main">
+      <section class="products">
+        <h2 class="products__title">Products</h2>
         <div class="card">
-          <img src="https://picsum.photos/200/300" alt="Computer" />
-          <h3>Computer</h3>
-          <h4>Price: 4000$</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <img
+            class="card__img"
+            src="https://picsum.photos/200/300"
+            alt="Computer"
+          />
+          <h3 class="card__title">Computer</h3>
+          <h4 class="card__price">Price: 4000$</h4>
+          <p class="card__desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing.
+          </p>
 
-          <button class="btn-success">Buy</button>
-          <button class="btn-info">Info</button>
+          <button class="card__btn--success">Buy</button>
+          <button class="card__btn--info">Info</button>
+        </div>
+        <div class="card card--active">
+          <img
+            class="card__img"
+            src="https://picsum.photos/200/300"
+            alt="Computer"
+          />
+          <h3 class="card__title">Computer</h3>
+          <h4 class="card__price">Price: 4000$</h4>
+          <p class="card__desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing.
+          </p>
+
+          <button class="card__btn--success">Buy</button>
+          <button class="card__btn--info">Info</button>
         </div>
         <div class="card">
-          <img src="https://picsum.photos/200/300" alt="Computer" />
-          <h3>Computer</h3>
-          <h4>Price: 4000$</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-
-          <button class="btn-success">Buy</button>
-          <button class="btn-info">Info</button>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/200/300" alt="Computer" />
-          <h3>Computer</h3>
-          <h4>Price: 4000$</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-
-          <button class="btn-success">Buy</button>
-          <button class="btn-info">Info</button>
+          <img
+            class="card__img"
+            src="https://picsum.photos/200/300"
+            alt="Computer"
+          />
+          <h3 class="card__title">Computer</h3>
+          <h4 class="card__price">Price: 4000$</h4>
+          <p class="card__desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing.
+          </p>
+          <button class="card__btn--success">Buy</button>
+          <button class="card__btn--info">Info</button>
         </div>
       </section>
       <section>
